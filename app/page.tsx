@@ -49,13 +49,6 @@ const days = [
   { date: '2022-02-06' },
 ]
 
-interface Day {
-  date: string;
-  isCurrentMonth?: boolean;
-  isToday?: boolean;
-  isSelected?: boolean;
-}
-
 function classNames(...classes: (string | boolean | undefined)[]): string {
   return classes.filter(Boolean).join(' ')
 }
